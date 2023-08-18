@@ -33,5 +33,11 @@ namespace Projektl1d6
         this.score.Add(number);
         }
 
+        public void SubstractScore(int number)
+        {
+            this.score.Add(-number);
+
+        }
+
     }
 }
